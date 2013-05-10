@@ -1,0 +1,12 @@
+﻿<UserControl x:Class="SWD_projekt.UI.CryteriaEvaluationControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" d:DesignHeight="25" d:DesignWidth="300">
+    <DockPanel Name="dockPanel1" LastChildFill="True" HorizontalAlignment="Left">
+        <Label Name="cryteria1Label" DockPanel.Dock="Left" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+        <ComboBox Name="ahpValuesBox" DockPanel.Dock="Left" SelectedIndex="0" />
+        <Label Name="cryteria2Label" DockPanel.Dock="Right" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" />
+    </DockPanel>
+</UserControl>

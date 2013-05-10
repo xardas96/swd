@@ -1,0 +1,29 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+    <system:String x:Key="AHPone"> jest równie ważne, jak </system:String>
+    <system:String x:Key="AHPthree">jest nieznacznie ważniejsze od</system:String>
+    <system:String x:Key="AHPfive">jest wyraźnie ważniejsze od</system:String>
+    <system:String x:Key="AHPseven">jest zdecydowanie ważniejsze od</system:String>
+    <system:String x:Key="AHPnine">jest bezwzględnie ważniejsze od</system:String>
+    <system:String x:Key="evaluateCryteria">Oceń wybrane kryteria względem siebie:</system:String>
+    <system:String x:Key="evaluateCryteriaTitle">Wzajemna ocena wybranych kryteriów</system:String>
+    <system:String x:Key="universityChoice">Wybierz uczelnie, na których zamierzasz studiować:</system:String>
+    <system:String x:Key="universityChoiceTitle">Wybór uczelni</system:String>
+    <system:String x:Key="addUniversity">Dodaj uczelnię</system:String>
+    <system:String x:Key="deleteUniversity">Usuń uczelnię</system:String>
+    <system:String x:Key="cryteriaChoice">Wybierz kryteria, które są dla ciebie ważne przy doborze uczelni:</system:String>
+    <system:String x:Key="cryteriaChoiceTitle">Wybór kryteriów</system:String>
+    <system:String x:Key="addCryteria">Dodaj kryterium</system:String>
+    <system:String x:Key="deleteCryteria">Usuń kryterium</system:String>
+    <system:String x:Key="next">Dalej</system:String>
+    <system:String x:Key="back">Wstecz</system:String>
+    <system:String x:Key="geoLocalization">Wpisz swój adres zamieszkania:</system:String>
+    <system:String x:Key="geoLocalizationTitle">Wprowadzenie adresu zamieszkania</system:String>
+    <system:String x:Key="shortDistance">Mała odległość od miejsca zamieszkania</system:String>
+    <system:String x:Key="largeDistance">Duża odległość od miejsca zamieszkania</system:String>
+    <system:String x:Key="payForUniversity">Wśród wybranych uczelni znaleziono takie, które wymagają opłaty za studiowanie.</system:String>
+    <system:String x:Key="noWrongUniversities">Wykluczenie znalezionych uczelni z dalszego procesu</system:String>
+    <system:String x:Key="lowerRatingForWrongUniversities">Obniżenie pozycji znalezionych uczelni w końcowym rankingu</system:String>
+</ResourceDictionary>
